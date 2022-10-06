@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+	margin: 0 auto;  		
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .sections {
+    margin-bottom: 10px;
+  }
+  
+  .bsection1 {
+    background: green;
+    height: 100px;
+  }
+  
+  .bsection2 {
+    background: yellow;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  .bsection3 {
+    background: red;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  
+  .bsection4 {
+    background: blue;
+    height: 50px;
+    margin-bottom: 5px;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .sections {
+    margin-bottom: 20px;
+  }
+
+  .bsection1 {
+    background: green;
+    height: 200px;
+  }
+
+  .bsection2 {
+    background: yellow;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .bsection3 {
+    background: red;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .bsection4 {
+    background: blue;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .sections {
+    margin-bottom: 28px;
+  }
+
+  .bsection1 {
+    background: green;
+    height: 400px;
+  }
+
+  .bsection2 {
+    background: yellow;
+    height: 75px;
+    margin-bottom: 14px;
+    width: 50%;
+    float: left;
+  }
+
+  .bsection3 {
+    background: red;
+    height: 200px;
+    margin-bottom: 14px;
+    width: 33%;
+    float: left;
+  }
+
+  .bsection4 {
+    background: blue;
+    height: 100px;
+    margin-bottom: 14px;
+    width: 25%;
+    float: left;
+  }  
+}
